@@ -1,0 +1,4 @@
+stock_trading_env/
+.env/
+.idea
+
