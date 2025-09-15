@@ -51,5 +51,6 @@ with open(output_csv, mode='w', newline='', encoding='utf-8') as f:
  for t in tickers:
   row = {key: t.get(key,'')for key in fieldnames}
   writer.writerow(row)
+  #breakpoint()
  print(f'Wrote{len(tickers)}rows to {output_csv}')
 
